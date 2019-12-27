@@ -1,0 +1,16 @@
+animation{
+  name = "idle",
+  src_image = "entities/fishing_tackle.png",
+  frame_delay = 1000,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "catch",
+  src_image = "entities/fishing_tackle.png",
+  directions = {
+    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 8, origin_y = 13 },
+  },
+}

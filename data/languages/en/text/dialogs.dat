@@ -1,0 +1,11 @@
+dialog{
+  id = "_treasure.fishing_rod.1",
+  text = [[
+It's a free fishing rod.
+No strings attached.
+
+Warning: may come with
+a single string attached.
+]],
+}
+

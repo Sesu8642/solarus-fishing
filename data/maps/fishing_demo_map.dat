@@ -1,0 +1,68 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 240,
+  pattern = "GrassPlain",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 104,
+  width = 168,
+  height = 80,
+  pattern = "WaterPlain",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 128,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "Wall_floating_rock_algae",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 128,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "Wall_floating_rock_algae",
+  tileset = "outside",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 112,
+  y = 45,
+  direction = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 112,
+  y = 77,
+  treasure_name = "fishing_rod",
+  treasure_savegame_variable = "fishing_rod_collected",
+}
+
